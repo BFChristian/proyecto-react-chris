@@ -3,12 +3,12 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComponent from './components/navbar/';
 import ButtonComponent from './components/button/';
-import ItemListConteinerComponent from './components/itemListConteiner';
+import ItemListConteiner from './conteiners/itemList';
 function App() {
   return (
     <>
     <NavbarComponent/>
-    <ItemListConteinerComponent/>
+    <ItemListConteiner/>
     <h2>Bienvenido al sitio</h2>
     <ButtonComponent text={`a`}/>
     </>
